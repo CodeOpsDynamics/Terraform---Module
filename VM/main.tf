@@ -8,7 +8,7 @@ resource "azurerm_linux_virtual_machine" "vmconnect" {
   #admin_username      = data.azurerm_key_vault_secret.username.value
   #admin_password      = data.azurerm_key_vault_secret.password.value
   admin_username      = "Adminuser1"
-  admin_password      = "S1!ummer@UPSC0909"
+  admin_password      = "Adminuser1@12345"
   network_interface_ids = [
     each.value.id,
   ]
